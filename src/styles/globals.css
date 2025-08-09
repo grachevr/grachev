@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-max{ @apply w-full max-w-content mx-auto px-5 }
+.panel{ @apply bg-panel border border-border rounded-[18px] shadow-soft }
+.btn{ @apply inline-flex items-center justify-center gap-2 font-bold px-4 py-3 rounded-xl }
+.btn-primary{ @apply bg-accent text-white }
+.btn-ghost{ @apply border border-border bg-transparent }
+.muted{ @apply text-muted }
+body{ @apply bg-bg text-white }
+.section{ @apply py-16 md:py-24 }
+.scroll-offset{ @apply scroll-mt-24 }
+html{ scroll-behavior: smooth }
+.prose :where(a){ text-decoration: underline }
